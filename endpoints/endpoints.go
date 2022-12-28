@@ -5,5 +5,5 @@ import (
 )
 
 func RootHandler(c *fiber.Ctx) error {
-	return c.SendString("Hello, World!!!")
+	return c.SendString("Root Handler")
 }
